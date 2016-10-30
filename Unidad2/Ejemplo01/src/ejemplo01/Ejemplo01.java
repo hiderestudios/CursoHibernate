@@ -34,22 +34,22 @@ public class Ejemplo01 {
         Session session = sessionFactory.openSession();
         //--GUARDAR--
         
-//        
-//        session.beginTransaction(); //crear nueva transaccion
-//        
-//        session.save(profesor);
-//        
-//        session.getTransaction().commit();
+        
+        session.beginTransaction(); //crear nueva transaccion
+        
+        session.save(profesor);
+        
+        session.getTransaction().commit();
 
         //--LEER--
         Profesor profesorLeer = (Profesor) session.get(Profesor.class, 101);
 //        System.out.println(profesorLeer.getNombre());
 
         //ACTUALIZAR
-        profesorLeer.setNombre("Juanito");
-        session.beginTransaction();
-        session.update(profesorLeer);
-        session.getTransaction().commit();
+//        profesorLeer.setNombre("LLUIS");
+//        session.beginTransaction();
+//        session.update(profesorLeer);
+//        session.getTransaction().commit();
         
         //--BORRAR--
 //        session.beginTransaction();

@@ -30,7 +30,7 @@ public class Ejemplo07 {
         sessionFactory = configuration.buildSessionFactory(serviceRegistry);
 
         
-        Profesor profesor = new Profesor(413,(new Nombre("Elias","Rubio","Sanchez")),TipoFuncionario.Carrera);
+        Profesor profesor = new Profesor(415,(new Nombre("Elias","Rubio","Sanchez")),TipoFuncionario.Carrera);
         //--Session--
         Session session = sessionFactory.openSession();
         session.beginTransaction();

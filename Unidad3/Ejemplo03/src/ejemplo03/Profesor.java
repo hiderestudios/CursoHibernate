@@ -45,7 +45,10 @@ public class Profesor implements Serializable {
         this.nombre = nombre;
         this.ape1 = ape1;
         this.ape2 = ape2;
+        this.correosElectronicos = correosElectronicos;
     }
+
+
 
     public int getId() {
         return id;

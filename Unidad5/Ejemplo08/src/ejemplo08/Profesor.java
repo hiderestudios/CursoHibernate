@@ -41,6 +41,10 @@ public class Profesor implements Serializable {
         this.ape1 = ape1;
         this.ape2 = ape2;
     }
+    
+   
+    
+    
 
     public int getId() {
         return id;

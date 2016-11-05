@@ -1,0 +1,3 @@
+Para usar los Tags <sql-insert/update/delete> se necesita usar si o si el archivo de mapeo .xml o se puede usar mediante
+las anotaciones JPA?
+El tag query =
